@@ -24,7 +24,7 @@ public final class Sprite extends DrawingArea {
 
 	public Sprite(byte abyte0[], Component component) {
 		try {
-			Image image = Toolkit.getDefaultToolkit().getImage(location+"bg.png");
+			Image image = Toolkit.getDefaultToolkit().getImage(location+"BackGround.png");
 			//Image image = Toolkit.getDefaultToolkit().createImage(abyte0);
 			MediaTracker mediatracker = new MediaTracker(component);
 			mediatracker.addImage(image, 0);
